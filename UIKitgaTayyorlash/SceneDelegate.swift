@@ -5,6 +5,7 @@
 //  Created by RustamXasan on 01/11/22.
 //
 
+// Shu yerdan boshlab
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -20,6 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.rootViewController = MainTabBarViewController()
         window?.makeKeyAndVisible()
     }
+    //Shu yergacha bo'lgan joylarni o'zgartir
     
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
